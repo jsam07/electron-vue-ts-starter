@@ -31,20 +31,32 @@
 Clone this repository:
 
 ```
-git clone git@github.com:BCIT-DDC/electron-ts-starter.git
+git clone git@github.com:jsam07/electron-vue-ts-starter.git
 ```
 
 Install npm dependencies:
 
 ```
-cd electron-ts-starter
+cd  electron-vue-ts-starter
 npm install
 ```
 
-### 2. Start Desktop Application
+### 2. Start Desktop Application in Development Mode
 
 ```
-npm run start
+npm run dev
+```
+
+### 3. Production Builds
+
+Edit the `electron-builder.json` file to accommodate your application. See [Electron Builder](https://www.electron.build/) to package and build a ready for distribution Electron app for macOS, Windows and Linux with “auto update” support out of the box.
+
+Run build command on the appropriate OS
+
+```
+npm run release:linux
+npm run release:mac
+npm run release:win
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -59,7 +71,7 @@ npm run start
 
 <!-- -   [x] Add Changelog -->
 
-See the [open issues](https://github.com/BCIT-DDC/electron-ts-starter/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jsam07/electron-vue-ts-starter/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -73,8 +85,8 @@ Contributions are what make the open source community such an amazing place to l
 
 This project exists thanks to all the people who contribute.
 <br/>
-<a href="https://github.com/BCIT-DDC/electron-ts-starter/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bcit-ddc/electron-ts-starter" height="40"/>
+<a href="https://github.com/jsam07/electron-vue-ts-starter/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=jsam07/electron-vue-ts-starter" height="40"/>
 </a>
 
 <!-- TESTING -->
@@ -89,7 +101,7 @@ This project exists thanks to all the people who contribute.
 
 ## License
 
-[MIT](LICENSE.md) © BCIT-DDC
+[MIT](LICENSE.md) © Jamie Samuel
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -97,3 +109,4 @@ This project exists thanks to all the people who contribute.
 
 -   [VS Code](https://github.com/microsoft/vscode)
 -   [Electron JS Starter](https://github.com/electron/electron-quick-start)
+-   [Electron Vue Starter](https://github.com/SimulatedGREG/electron-vue)
