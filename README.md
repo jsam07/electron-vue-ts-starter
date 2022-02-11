@@ -13,7 +13,7 @@
 
 [![Electron Logo](./assets/images/electron-vue.png)](https://electronjs.org)
 
-🚀 A production-ready starter for building cross-platform desktop applications, built with Electron, Vue 3, Vite, and TypeScript.
+🚀 A production-ready starter for building cross-platform desktop applications with Electron.
 
 ### Built With
 
